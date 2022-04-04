@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$VaZ6xAMXi6sBydbqo2laXo$VEwpVLaUrXFX2WFwK6tDzCTqJfud0dRIVVJ4//tzXI8=",
+    "last_login": "2022-04-04T07:50:55.724Z",
+    "is_superuser": true,
+    "username": "chika",
+    "first_name": "",
+    "last_name": "",
+    "email": "madifeice77@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-04-04T07:50:48.391Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
