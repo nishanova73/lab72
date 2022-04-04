@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}View{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'webapp:product_update' product.pk %}">Update</a></li>
+    <li><a href="{% url 'webapp:product_delete' product.pk %}">Delete</a></li>
+    <li>{% include 'partial/cart_add_form.html' %}</li>
+{% endblock %}
+
+{% block content %}
+    <div class="box">
+        <h1>{{ product.name }}</h1>
+        <p>Category: {{ product.get_category_display }}</p>
+        <p>Left: {{ product.amount }}  {{ product.price  }}</p>
+        <p>{{ product.description }}</p>
+    </div>
+{% endblock %}
